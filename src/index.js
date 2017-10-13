@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function deleteList(e) {
-		console.log(e.target);
 		if (e.target.className === 'close') {
 			const id = e.target.parentElement.dataset.id;
 			const theLists = [...document.querySelectorAll('#lists div')];
